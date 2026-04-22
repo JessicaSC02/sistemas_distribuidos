@@ -38,3 +38,6 @@ Nenhuma biblioteca externa de terceiros (como `pandas` ou `numpy`) é necessári
 
 ## 📄 Outros Arquivos
 - `Relatorio_Atividade_Paralelismo.md`: Detalhamento teórico sobre o contexto da prática e os objetivos da técnica de Divisão e Conquista.
+
+## 🔗 Link Útil
+- [Acesso ao Arquivo no Google Drive](https://drive.google.com/file/d/1HLbygYQv6nhD6eYHwHk-5IAZrk1ZoqYr/view?usp=sharing)
