@@ -1,0 +1,5 @@
+--- Log de Execucao Parte A (Sequencial) ---
+Tempo total de execucao: 50.89 segundos
+Total de blocos (chunks) processados: 114
+Tamanho de cada bloco (chunksize): 100000 linhas
+Total de corridas lidas: 11382049

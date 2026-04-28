@@ -1,0 +1,6 @@
+--- Log de Execucao Parte B (Paralela) ---
+Tempo total de execucao: 85.88 segundos
+Total de blocos (chunks) processados: 114
+Tamanho de cada bloco (chunksize): 100000 linhas
+Total de corridas lidas: 11382049
+Numero de processos utilizados: 12
