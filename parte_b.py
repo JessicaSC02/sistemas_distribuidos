@@ -2,6 +2,7 @@ import csv
 import time
 from collections import defaultdict
 import multiprocessing
+import sys
 
 CHUNK_SIZE = 100000
 
@@ -108,7 +109,14 @@ def main():
     chunk_count = 0
     
     num_processes = multiprocessing.cpu_count()
-    print(f"Utilizando {num_processes} processos paralelos.")
+    if len(sys.argv) > 1:
+        num_processes = int(sys.argv[1])
+        
+    global CHUNK_SIZE
+    if len(sys.argv) > 2:
+        CHUNK_SIZE = int(sys.argv[2])
+
+    print(f"Utilizando {num_processes} processos paralelos e chunk size {CHUNK_SIZE}.")
     
     with multiprocessing.Pool(processes=num_processes) as pool:
         # Usa imap_unordered para iterar sobre os chunks paralelamente
